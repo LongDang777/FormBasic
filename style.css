@@ -29,7 +29,7 @@ html ::-webkit-scrollbar-track {
 }
 
 body {
-  font-family: sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 
@@ -99,14 +99,18 @@ form div input {
   width: 100%;
   height: 40px;
   font-size: 16px;
+  padding: 0 35px;
+
   border-radius: var(--boderRadius--1);
   outline: none;
   border: 2px solid var(--clr-gray);
-  padding: 0 30px;
   box-shadow: var(--shadow);
   caret-color: var(--clr-primary);
+
+
   transition: all 0.3s;
 }
+
 
 input[type="password"] {
   font-family: Verdana;
@@ -220,6 +224,8 @@ span {
 
 .or {
   text-align: center;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 /* reponsive */
