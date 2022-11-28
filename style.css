@@ -149,9 +149,9 @@ form div i {
   color: green;
 }
 
-.error {
+div.error {
   font-size: 14.5px;
-  margin-top: 5px;
+  margin-bottom: 0;
 }
 
 .success-icon,

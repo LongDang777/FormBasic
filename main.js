@@ -23,18 +23,10 @@ const validateInput = (id, seiral, message) => {
     failureIcon[seiral].style.opacity = "0";
     successIcon[seiral].style.opacity = "1";
   }
-  // if (
-  //   errorMes[0].innerHTML === "" &&
-  //   errorMes[1].innerHTML === "" &&
-  //   errorMes[2].innerHTML === ""
-  // ) {
-  //   alert("Congratulations, you have successfully registered an account");
-  // }
 };
 //  ! tìm lại form trn git validation
 
 form.onsubmit = (e) => {
-  console.table(e);
   e.preventDefault();
 
   validateInput(username, 0, "Username cannot be blank");
@@ -42,4 +34,5 @@ form.onsubmit = (e) => {
   validateInput(email, 1, "Email cannot be blank");
 
   validateInput(password, 2, "Password cannot be blank");
+
 };
